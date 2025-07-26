@@ -15,7 +15,7 @@ This is a Mern stack student managenemt system.
 
  - Redux Toolkit
 
- - React Router v6+
+ - React Router v7+
 
 ### Backend
  - Node.js & Express.js (For RESTful API)
