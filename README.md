@@ -1,12 +1,48 @@
-# React + Vite
+# MERN Stack School Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Mern stack student managenemt system.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://student-management-system-frontend-gules.vercel.app](https://student-management-system-frontend-gules.vercel.app)
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+ - React.js
+
+ - Material-UI (MUI)
+
+ - Redux Toolkit
+
+ - React Router v6+
+
+### Backend
+ - Node.js & Express.js (For RESTful API)
+
+ - MongoDB (for database)
+
+ - JWT for authentication and authorization
+
+## Admin User Credentials
+ - bob@example.com
+ - 123456
+
+## Features
+ - Protected Routes
+ - Role based (CRUD) for Staff users
+ - user authentication and authorization using JWT
+ - State management using redux-toolkit
+ - React router v7+ for routing
+
+## Installation
+```
+git clone https://github.com/RaisanJMR/student-management-system-frontend.git
+npm install
+npm run dev
+```
+### Environment Variables
+```
+VITE_API_BASE_URL=https://student-management-system-backend-s7ll.onrender.com
+ 
+```
