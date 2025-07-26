@@ -1,6 +1,6 @@
 # MERN Stack School Management System
 
-This is a Mern stack student managenemt system.
+This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application built as part of a machine test to evaluate MERN development proficiency. The system enables efficient management of student records within a school environment and supports Role-Based Access Control (RBAC) for Super Admin and Staff users.
 
 ## Live Demo
 
